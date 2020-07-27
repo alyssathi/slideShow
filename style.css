@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./Images/background.jpg);
+    /* https://unsplash.com/photos/X-Bu9X6gok0 */
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    margin: 2vw;
+    font-size: 4rem;
+    color: rgb(92, 56, 56);
+}
+
+.slideShow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 60vh;
+    border: 10px solid rgb(92, 56, 56);
+}
+
+button{
+    height: 10vh;
+    width: 7vw;
+    margin: 1vw;  
+    background-color: rgb(199, 179, 179);
+    font-size: 2rem;
+    color: rgb(92, 56, 56);
+    border-color: rgb(92, 56, 56);
+}
+
+button:hover{
+    background-color:rgb(145, 116, 116);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.indicators{
+    background-color:rgb(145, 116, 116);
+    height: 1vw;
+    width: 2vw;
+    margin: 1vw;
+}
+
+.active{
+    background-color: rgb(92, 56, 56);
+    height: 1vw;
+    width: 2vw;
+    margin: 1vw; 
+}
